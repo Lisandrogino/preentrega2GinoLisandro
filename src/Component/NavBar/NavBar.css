@@ -1,0 +1,17 @@
+.barContainerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.buttonContainer{
+    padding: 10px;
+}
+
