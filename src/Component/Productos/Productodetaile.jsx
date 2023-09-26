@@ -1,7 +1,7 @@
 import React from 'react'
 import {Grid, Card, CardContent, Typography} from '@mui/material'
 
-const Productodetaile = (Products, children) => {
+const Productodetaile = ({Products, children}) => {
 
     const {id, imagen, nombre, descripcion, autor, categoria, precio } = Products
 
@@ -24,7 +24,7 @@ const Productodetaile = (Products, children) => {
                 <Typography className='productCategory'>{Products.categoria}</Typography>
                 <Typography className='productdesAutor'>{Products.autor}</Typography>
                 <Typography className='productdescription'>{Products.descripcion}</Typography>
-                <h4 className='productsPrecio'> $ {Products.precio}</h4>
+                <h4 className='productsPrecio'> $ {precio.toFixed(2)}</h4>
             </div>
 
             </CardContent>

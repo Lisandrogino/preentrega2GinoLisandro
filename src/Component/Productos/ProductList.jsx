@@ -1,7 +1,7 @@
 import React from 'react'
 import useAonsyncMoxks from '../../Hockss/useAonsyncMocks'
 import Products from '../../assets/Mocks/Products.json'
-import { Grid, Typography, CircularProgress, Grid } from '@mui/material'
+import { Grid, Typography, CircularProgress } from '@mui/material'
 import Productodetaile from './Productodetaile'
 
 const ProductList = () => {
@@ -21,16 +21,16 @@ const ProductList = () => {
 
             <Grid container spacing={2} className='gridContainer'>
                 {
-                    data.map(Products)=>{
+                    data.map((Products)=>{
                         
                         return(
                             
-                            <Productodetaile key={Products.id}>
+                            <Productodetaile key={Products.id} Products={Products}>
 
                             </Productodetaile>
                         )
 
-                    }
+                    })
                 }
             </Grid>
         </div>
