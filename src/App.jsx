@@ -19,7 +19,7 @@ function App() {
      <Router>
           <NavBar/>
       <Routes>
-          <Route exact path='/' element={<Categories />} />
+          <Route exact path='/' element={<ProductList/>} />
           <Route exact path='/Products' element={<ProductList/>} />
           <Route exact path='/categories/:categoriesID' element={<CategoryProductList/>} />
       </Routes>    
