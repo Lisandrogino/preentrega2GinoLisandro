@@ -12,7 +12,7 @@ function NavBar() {
     <Toolbar className='barContainerContainer'>
 
       <div className='logoContainer'>
-        <Typography className='logoText'>LOGO</Typography>
+      <Link to="/">LOGO LIBRERIA FRIKI</Link>
       </div>
 
       <div className='menuContainer'>
