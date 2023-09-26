@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "nombre": "El Universo en tu bolsillo",
+      "imagen": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/21a71576-0286-4bc4-9d57-22f197467ba5.__CR63,0,375,500_PT0_SX300_V1___.png",
+      "descripcion": "Una guía ilustrada para entender el universo",
+      "autor": "Marcus Chown",
+      "categoria": "Divulgación científica",
+      "precio": 300
+    },
+    {
+      "id": 2,
+      "nombre": "El Universo en una Cazcara de Nuez",
+      "imagen": "https://covers.alibrate.com/b/59872e96cba2bce50c1bfa1b/278ef655-1992-4082-a49b-09d0f638b63f/share",
+      "descripcion": "Una mirada de la evolución de nuestro Universo",
+      "autor": " Stephen Hawking",
+      "categoria": "Divulgación científica",
+      "precio": 400
+    },
+    {
+      "id": 3,
+      "nombre": "Homo Deus",
+      "imagen": "https://www.fraymocho.com.ar/media/catalog/product/cache/5be8613c49569c873a50ed7e321cb477/9/8/9873752629_9789873752629_2022-11-08_11_12_58.jpg",
+      "descripcion": "Una mirada al futuro de la humanidad",
+      "autor": "Yuval Noah Harari",
+      "categoria": "Divulgación científica",
+      "precio": 500
+    },
+    {
+      "id": 4,
+      "nombre": "La guerra de los mundos",
+      "imagen": "https://www.isliada.org/static/images/2015/04/la-guerra-de-los-mundos-500x850.jpg",
+      "descripcion": "Una novela clásica de ciencia ficción",
+      "autor": "H.G. Wells",
+      "categoria": "Ciencia ficción",
+      "precio": 200
+    },
+    {
+      "id": 5,
+      "nombre": "Fahrenheit 451",
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/520x520/67/bc/67bc5c724f619a5d9c0708e99bf0f29a.jpg",
+      "descripcion": "Una novela distópica sobre un futuro en el que los libros están prohibidos",
+      "autor": "Ray Bradbury",
+      "categoria": "Ciencia ficción",
+      "precio": 300
+    },
+    {
+      "id": 6,
+      "nombre": "El señor de los anillos",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_873288-MLU71109929222_082023-O.webp",
+      "descripcion": "Una trilogía épica de fantasía",
+      "autor": "J.R.R. Tolkien",
+      "categoria": "Fantasía",
+      "precio": 400
+    },
+    {
+      "id": 7,
+      "nombre": "Cien años de soledad",
+      "imagen": "https://www.penguinlibros.com/ar/2125782-large_default/cien-anos-de-soledad-edicion-conmemorativa-de-la-rae-y-la-asale.jpg",
+      "descripcion": "Una novela mágica y realista sobre la familia Buendía",
+      "autor": "Gabriel García Márquez",
+      "categoria": "Fantasía",
+      "precio": 500
+    },
+    {
+      "id": 8,
+      "nombre": "Harry Potter y la piedra filosofal",
+      "imagen": "https://contentv2.tap-commerce.com/cover/large/9789878000107_1.jpg?id_com=1113",
+      "descripcion": "La primera novela de la saga de Harry Potter",
+      "autor": "J.K. Rowling",
+      "categoria": "Fantasía",
+      "precio": 200
+    },
+    {
+      "id": 9,
+      "nombre": "El hobbit",
+      "imagen": "https://contentv2.tap-commerce.com/cover/large/9789505472697_1.jpg?id_com=1113",
+      "descripcion": "Una novela de fantasía escrita por J.R.R. Tolkien",
+      "autor": "J.R.R. Tolkien",
+      "categoria": "Fantasía",
+      "precio": 300
+    }
+  ]
+  
