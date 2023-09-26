@@ -1,3 +1,4 @@
+import React from 'react'
 import LocalGroceryStoreTwoToneIcon from '@mui/icons-material/LocalGroceryStoreTwoTone';
 
 const CartWidget = () =>{

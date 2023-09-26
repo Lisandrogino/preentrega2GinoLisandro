@@ -8,6 +8,8 @@ function Categories() {
   
   const {data, loading} = useAonsyncMoxks(categorias)
 
+  if(loading){ return({CircularProgress})} 
+
   return (
     <div className='container'>
 
