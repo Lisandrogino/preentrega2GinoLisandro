@@ -26,7 +26,7 @@ function Categories() {
          
           <Card key={categorias.id} className='cartCategoriasContainer'>
 
-            <CardContent className='categoriasContainer' component={Link} to={'categories/${categories.categoria}'}>
+            <CardContent className='categoriasContainer' component={Link} to={'categories/${categories.categoria}'} >
 
              <div>
                 <Typography>{categorias.categoria}</Typography>

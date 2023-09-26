@@ -15,6 +15,7 @@ function NavBar() {
 
       <div className='menuContainer'>
 
+
         <div className='buttonContainer'>
           <Button className='button'sx={{color: "black"}}>Ciencia</Button>
         </div>

@@ -1,15 +1,15 @@
 [
     {
       "id": 1,
-      "categoria": "Divulgación científica"
+      "categoria": "divulgación-científica"
     },
     {
       "id": 1,
-      "categoria": "Ciencia ficción"
+      "categoria": "ciencia-ficcion"
     },
     {
       "id": 1,
-      "categoria": "Fantasía"
+      "categoria": "fantasia"
     }
   ]
   

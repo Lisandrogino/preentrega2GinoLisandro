@@ -13,7 +13,7 @@ const CategoryProductList = () => {
 
     if(loading) return <CircularProgress/>
 
-    const categorySelected = data.filter( categories => categories.categoria.toLowerCase() === categoriesID.toLocaleLowerCase())
+    const categorySelected = data.filter( categories => categories.categoria === categoriesID)
     
   return (
 
