@@ -2,7 +2,8 @@ import React from 'react'
 import './Categories.css'
 import useAonsyncMoxks from '../../Hockss/useAonsyncMocks'
 import categorias from '../../assets/Mocks/Categorias.json'
-import{ Button, Card, CardContent, CircularProgress, Typography} from '@mui/material'
+import{ Card, CardContent, CircularProgress, Typography} from '@mui/material'
+import { Link } from 'react-router-dom'
 
 function Categories() {
   
@@ -25,7 +26,7 @@ function Categories() {
          
           <Card key={categorias.id} className='cartCategoriasContainer'>
 
-            <CardContent className='categoriasContainer'>
+            <CardContent className='categoriasContainer' component={Link} to={'categories/${categories.categoria}'}>
 
              <div>
                 <Typography>{categorias.categoria}</Typography>
