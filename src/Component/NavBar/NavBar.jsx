@@ -1,7 +1,9 @@
 import React from 'react'
-import {Toolbar, AppBar, Typography, Button, Link} from '@mui/material';
+import {Toolbar, AppBar, Typography, Button} from '@mui/material';
 import CartWidget from './CartWidget/CartWidget';
 import './NavBar.css';
+import { Link } from 'react-router-dom';
+
 
 
 function NavBar() {
@@ -17,16 +19,16 @@ function NavBar() {
 
 
         <div className='buttonContainer'>
-        <Link to="/categories/fantasia">Ciencia</Link>
+        <Link to="/categories/ciencia">Ciencia</Link>
         </div>
 
         <div className='buttonContainer'>
-          <Button className='button'sx={{color: "black"}}>Ciencia Ficcion</Button>
+        <Link to="/categories/ciencia-ficcion">Ciencia Ficción</Link>
         </div>
 
         <div className='buttonContainer'>
        
-          <Button className='button' sx={{color: "black"}}>Fantastica</Button>
+        <Link to="/categories/fantasia">Fantasía</Link>
         </div>
 
       </div>

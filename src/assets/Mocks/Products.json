@@ -5,7 +5,7 @@
       "imagen": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/21a71576-0286-4bc4-9d57-22f197467ba5.__CR63,0,375,500_PT0_SX300_V1___.png",
       "descripcion": "Una guía ilustrada para entender el universo",
       "autor": "Marcus Chown",
-      "categoria": "divulgación-cientifica",
+      "categoria": "ciencia",
       "precio": 300
     },
     {
@@ -14,7 +14,7 @@
       "imagen": "https://covers.alibrate.com/b/59872e96cba2bce50c1bfa1b/278ef655-1992-4082-a49b-09d0f638b63f/share",
       "descripcion": "Una mirada de la evolución de nuestro Universo",
       "autor": " Stephen Hawking",
-      "categoria": "divulgación-cientifica",
+      "categoria": "ciencia",
       "precio": 400
     },
     {
@@ -23,7 +23,7 @@
       "imagen": "https://www.fraymocho.com.ar/media/catalog/product/cache/5be8613c49569c873a50ed7e321cb477/9/8/9873752629_9789873752629_2022-11-08_11_12_58.jpg",
       "descripcion": "Una mirada al futuro de la humanidad",
       "autor": "Yuval Noah Harari",
-      "categoria": "divulgación-cientifica",
+      "categoria": "ciencia",
       "precio": 500
     },
     {
