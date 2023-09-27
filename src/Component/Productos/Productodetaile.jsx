@@ -15,10 +15,11 @@ const Productodetaile = ({Products, children}) => {
         <Card className='cardContainer'>
 
 
-            <Link to="/item/${id}"></Link>
             
 
             <CardContent>
+
+            <Link to="/item/${id}">detalle</Link>
 
             <div className='cardImagen'>
                 <img src={Products.imagen} className='productImg'/>
@@ -26,10 +27,10 @@ const Productodetaile = ({Products, children}) => {
 
             <div className='productData'>
                 <h3 className='productTitle'>{Products.nombre}</h3>
-                <Typography className='productCategory'>{Products.categoria}</Typography>
-                <Typography className='productdesAutor'>{Products.autor}</Typography>
-                <Typography className='productdescription'>{Products.descripcion}</Typography>
-                <h4 className='productsPrecio'> $ {precio.toFixed(2)}</h4>
+                <Typography className='productCategory'>{categoria}</Typography>
+                <Typography className='productdesAutor'>{autor}</Typography>
+                <Typography className='productdescription'>{descripcion}</Typography>
+                $ {precio.toFixed(2)}
             </div>
 
             </CardContent>
