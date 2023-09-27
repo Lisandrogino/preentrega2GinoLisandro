@@ -1,5 +1,6 @@
 import React from 'react'
 import {Grid, Card, CardContent, Typography} from '@mui/material'
+import { Link } from 'react-router-dom'
 
 const Productodetaile = ({Products, children}) => {
 
@@ -13,11 +14,15 @@ const Productodetaile = ({Products, children}) => {
 
         <Card className='cardContainer'>
 
+
+            <Link to="/item/${id}"></Link>
+            
+
+            <CardContent>
+
             <div className='cardImagen'>
                 <img src={Products.imagen} className='productImg'/>
             </div>
-
-            <CardContent>
 
             <div className='productData'>
                 <h3 className='productTitle'>{Products.nombre}</h3>
