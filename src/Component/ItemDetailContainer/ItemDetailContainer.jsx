@@ -6,6 +6,7 @@ import { CircularProgress } from '@mui/material'
 
 
 
+
 const ItemDetailContainer = () => {
 
       const {data, loading} = useAonsyncMoxks(Products)
@@ -14,15 +15,19 @@ const ItemDetailContainer = () => {
       let productoSeleccionado = {}
 
       if(data){
-        productoSeleccionado = data.find(item => item.id === pareseInt(id))
+        productoSeleccionado = data.find(item => item.id === parseInt(id))
       }
 
       if(loading) return <CircularProgress />
 
   return (
             <div>
-          <h1>{productoSeleccionado.nombre}</h1>
-        </div>
+                <h1>{productoSeleccionado.nombre}</h1>
+                <p>{productoSeleccionado.autor}</p>
+                <h2>{productoSeleccionado.descripcion}</h2>
+                <p>{productoSeleccionado.precio}</p>
+
+            </div>
   )
 }
 
