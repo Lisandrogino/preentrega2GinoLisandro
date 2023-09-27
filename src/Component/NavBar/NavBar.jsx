@@ -24,9 +24,9 @@ function NavBar() {
       
       {
         data.map((category)=>{
-          return 
+          return (
 
-          <Link to ="/categories/${category.categoria}">{category.categorias}</Link>
+          <Link to ={`/categories/${category.categoria}`}>{category.categoria}</Link>)
         })
       }
 
