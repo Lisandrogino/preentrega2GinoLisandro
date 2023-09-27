@@ -19,8 +19,8 @@ const Productodetaile = ({Products, children}) => {
 
             <CardContent>
 
-            <Link to="/item/id}">detalle</Link>
-
+            <Link to={`/item/${id}`}>detalle</Link>
+           
             <div className='cardImagen'>
                 <img src={Products.imagen} className='productImg'/>
             </div>
